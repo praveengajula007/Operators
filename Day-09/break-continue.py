@@ -10,6 +10,7 @@ for i in numbers :
         continue
     print(i)
 
+# Automating Log File Analysis
 log_file = [
    "INFO: Operation successful",
    "ERROR: File not found",
@@ -18,5 +19,5 @@ log_file = [
 ]
 
 for line in log_file:
-   if "ERROR" in line:
-       print(line)
+    if "ERROR" in line:
+        print(line)
