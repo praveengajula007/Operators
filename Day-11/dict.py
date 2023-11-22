@@ -4,4 +4,6 @@ user = {
     "gender": "male"
     }
 
-print(user["gender"])
+user['name'] = 'gajula'
+user['age'] = 27
+print(user["age"])
