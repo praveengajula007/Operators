@@ -1,9 +1,13 @@
 user = {
     "name": "Praveen",
-    "age": 29,
-    "gender": "male"
+    "gender": "male",
+    "occupation": "Agriculture"
     }
 
-user['name'] = 'gajula'
-user['age'] = 27
-print(user["age"])
+#if 'age' in user:
+ #   print('Age is present in the dictionary')
+#else:
+#    print('Age is not present in the dictionary')
+
+for key, value in user.items():
+    print(key, value)
